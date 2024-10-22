@@ -1,5 +1,6 @@
 
 # ChinaCars - Data Processing
+![car-design-hologram](car-design-hologram.jpg)
 
 This project involves a set of scripts that clean, translate, and process a dataset of car owners from China. The dataset is assumed to contain columns in Chinese, which are translated into English before undergoing further data cleaning, validation, and restructuring.
 
