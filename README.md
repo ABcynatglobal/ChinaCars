@@ -28,7 +28,7 @@ This function detects the language used in the CSV and then proceeds to translat
 
 ### 1. Translation of Column Headers
 
-This script reads a CSV file, detects the language of the column headers, and translates non-English headers to English:
+This script reads a CSV file, detects the language of the column headers, and translates non-English headers to English and saves it as a new csv file:
 
 ```python
 import pandas as pd
