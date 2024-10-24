@@ -2,7 +2,13 @@
 # ChinaCars - Data Processing
 ![car-design-hologram](car-design-hologram.jpg)
 
+# Overview
 This project involves a set of scripts that clean, translate, and process a dataset of car owners from China. The dataset is assumed to contain columns in Chinese, which are translated into English before undergoing further data cleaning, validation, and restructuring.
+
+## Requirements
+- **Pandas:** Used for data manipulation and analysis.
+- **NumPy:** Utilized for array handling and splitting the dataset into chunks.
+- **OS:** Used to interact with the file system.
 
 ## Features
 - **Language Detection and Translation:** Automatically detects the language of column headers and translates them to English using Google Translate.
@@ -12,16 +18,11 @@ This project involves a set of scripts that clean, translate, and process a data
 
 ## Installation
 
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/your-username/ChinaCars.git
-    cd ChinaCars
-    ```
-
-2. Install required Python libraries:
+1. Install required Python libraries:
     ```bash
     pip install pandas googletrans==4.0.0-rc1 langdetect numpy
     ```
+This function detects the language used in the CSV and then proceeds to translate the file. 
 
 ## Usage
 
